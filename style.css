@@ -1,0 +1,143 @@
+@font-face {
+    font-family: 'Dina';
+    src: url(Dina-Font-TTF-Remastered-master/Fonts/DinaRemasterCollection.ttc);
+}
+body {
+    background-color: black;
+    font-size: 12;
+    margin: 0;
+    padding: 0;
+  }
+  body{
+    font-family: Dina, sans-serif;
+  }
+ 
+  main {
+    max-width: 800px; /* Set a maximum width for the element */
+    margin: 0 auto; /* Center the element horizontally on the page */
+    padding: 20px;
+  } 
+  body {
+    margin: 0 auto; /* Center the element horizontally on the page */
+    max-width: 800px; /* Set a maximum width for the element */
+    padding: 20px;
+  }
+.section {
+    margin: 20px auto; /* Center the element horizontally on the page */
+  }
+.section h2 {
+    font-size: 24px;
+    margin: 10px 0;
+    text-align: center; /* Center the text within the element */
+  }
+
+.resources li,
+.section li {
+    margin: 10px 0;
+    text-align: center; /* Center the text within the element */
+  }
+
+  .resources li,
+.section li {
+  margin: 10px 0;
+  text-align: center; /* Center the text within the element */
+}
+
+.resources ul,
+.section ul {
+  display: flex; /* Make the elements within the list display as a flex container */
+  justify-content: center; /* Center the elements within the container */
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+.resources li,
+.section li {
+  margin: 10px 0;
+}
+
+  
+    
+  header {
+
+    color: green;
+    padding: 20px;
+    text-align: center;
+  }
+  header h1 {
+    margin: 0;
+    font-size: 36px;
+  }
+  main {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  .section {
+    margin: 20px 0;
+  }
+  .section h2 {
+    color: green;
+    font-size: 36px;
+    margin: 10px 0;
+  }
+  .section p {
+    color: green;
+    line-height: 1.5;
+    font-size: 18px;
+  }
+  .resources ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  .resources li {
+    margin: 10px 0;
+  }
+  .resources a {
+    color: green;
+    text-decoration: none;
+  }
+  
+  /* Add some additional style for the programming theme */
+  code {
+    background-color: green;
+    border-radius: 3px;
+    font-family: "Courier New", monospace;
+    font-size: 14px;
+    padding: 2px 5px;
+  }
+  /* .highlight {
+    background-color: green;
+    border-radius: 3px;
+    color: black;
+    font-weight: bold;
+    padding: 2px 5px;
+  } */
+  main {
+max-width: 800px; /* Set a maximum width for the element */
+margin: 0 auto; /* Center the element horizontally on the page */
+padding: 20px;
+}
+
+
+a:link {
+    color: green;
+    background-color: transparent;
+    text-decoration: none;
+  }
+  a:visited {
+    color: green;
+    background-color: transparent;
+    text-decoration: none;
+  }
+  a:hover {
+    color: white;
+    background-color: transparent;
+    text-decoration: dashed;
+  }
+  a:active {
+    color: yellow;
+    background-color: transparent;
+    text-decoration: underline;
+  }
